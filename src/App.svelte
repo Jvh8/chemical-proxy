@@ -1,6 +1,6 @@
 <script>
-  import { Chemical, Frame } from "chemicaljs";
-  import { onMount } from "svelte";
+  import Chemical from "chemicaljs/Chemical";
+  import Frame from "chemicaljs/Frame";
 
   let chemical = $state();
   let ready = $state(false);
